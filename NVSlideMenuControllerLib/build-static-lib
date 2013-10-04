@@ -1,0 +1,5 @@
+#!/bin/bash
+
+xcodebuild -project "NVSlideMenuControllerLib.xcodeproj" -sdk iphonesimulator -configuration Release clean build
+xcodebuild -project "NVSlideMenuControllerLib.xcodeproj" -sdk iphoneos -configuration Release clean build
+lipo -create -output ./build/libNVSlideMenuController.a ./build/Release-iphoneos/libNVSlideMenuController.a ./build/Release-iphonesimulator/libNVSlideMenuController.a
