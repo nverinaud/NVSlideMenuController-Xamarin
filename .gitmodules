@@ -1,0 +1,3 @@
+[submodule "NVSlideMenuController"]
+	path = NVSlideMenuController
+	url = git@github.com:nverinaud/NVSlideMenuController.git
