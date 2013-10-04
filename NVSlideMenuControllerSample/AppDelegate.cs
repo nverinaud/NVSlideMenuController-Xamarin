@@ -30,7 +30,7 @@ namespace NVSlideMenuControllerSample
 
 			innerVC.NavigationItem.LeftBarButtonItem = new UIBarButtonItem(UIBarButtonSystemItem.FastForward);
 			innerVC.NavigationItem.LeftBarButtonItem.Clicked += delegate (object sender, EventArgs e) {
-				slideMenuController.ToggleMenuAnimated(null);
+				slideMenuController.ToggleMenuAnimated((NSObject)sender);
 			};
 			innerVC.Title = "Slide Menu";
 			innerVC.View.BackgroundColor = UIColor.White;
