@@ -12,7 +12,7 @@ Wrapper around the [NVSlideMenuController](https://github.com/nverinaud/NVSlideM
 
 #### Downloading the DLL
 
-* The DLL is released using Github Release. Follow [this link](https://github.com/nverinaud/NVSlideMenuController/releases) to find the version you want.
+* The DLL is released using Github Release. Follow [this link](https://github.com/nverinaud/NVSlideMenuController-Xamarin/releases) to find the version you want.
 
 #### Building the DLL
 
