@@ -1,11 +1,8 @@
 //
-//  $(ProjectName)
-//  StructsAndEnums.cs
+// Author:
+//     Nicolas VERINAUD <n.verinaud@gmail.com>
 //
-//  Author:
-//       Nicolas VERINAUD <nicolas@chloro.eu>
-//
-//  Copyright (c) 2013 Chlorophyll Vision. All Rights Reserved.
+// Copyright (c) 2014 Nicolas Verinaud. All Rights Reserved.
 //
 using System;
 

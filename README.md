@@ -1,8 +1,25 @@
 # NVSlideMenuController Xamarin
 
-Wrapper to the [NVSlideMenuController](https://github.com/nverinaud/NVSlideMenuController) library for Xamarin.iOS.
+Wrapper around the [NVSlideMenuController](https://github.com/nverinaud/NVSlideMenuController) library for Xamarin.iOS.
 
 ## Guide
+
+### Installation
+
+#### Using NuGet
+
+* A NuGet package is available in nuget.org. Simply search for `NVSlideMenuController`.
+
+#### Downloading the DLL
+
+* The DLL is released using Github Release. Follow [this link](https://github.com/nverinaud/NVSlideMenuController/releases) to find the version you want.
+
+#### Building the DLL
+
+1. Open the `NVSlideMenuController-Xamarin.sln` solution.
+2. Build in Release (or Debug if you want the symbolication).
+3. Copy the created DLL in the `NVSlideMenuController-Xamarin/bin/{Debug|Release}` folder to your project.
+4. You're done !
 
 ### Using the UIViewController's callbacks
 
@@ -38,6 +55,13 @@ public partial class MyViewController : UIViewController
 	}
 }
 ```
+
+### Building your own nuget copy
+
+1. Move into `NVSlideMenuController-Xamarin` folder.
+2. Update `NuGet/NVSlideMenuController/NVSlideMenuController.nuspec` if you want.
+3. Run `make`.
+4. Your package is created in `NVSlideMenuController-Xamarin/NuGet/NVSlideMenuController/{*}.nupkg`.
 
 ## Author
 
