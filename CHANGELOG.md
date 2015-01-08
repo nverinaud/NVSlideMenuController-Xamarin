@@ -1,5 +1,9 @@
 # Changelog
 
+## Release 1.5.6.1
+
+* NEW: *64-bit support* (Xamarin.iOS unified api)
+
 ## Release 1.5.6-nuget
 
 * NEW: Add nuget support
