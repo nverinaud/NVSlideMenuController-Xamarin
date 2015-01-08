@@ -5,10 +5,10 @@
 // Copyright (c) 2014 Nicolas Verinaud. All Rights Reserved.
 //
 using System;
-using System.Drawing;
-using MonoTouch.ObjCRuntime;
-using MonoTouch.Foundation;
-using MonoTouch.UIKit;
+using CoreGraphics;
+using ObjCRuntime;
+using Foundation;
+using UIKit;
 
 namespace NVSlideMenuControllerLib
 {
@@ -25,7 +25,7 @@ namespace NVSlideMenuControllerLib
 		bool PanGestureEnabled { get; set; }
 
 		[Export ("menuWidth")]
-		float MenuWidth { get; set; }
+		nfloat MenuWidth { get; set; }
 
 		[Export ("autoAdjustMenuWidth")]
 		bool AutoAdjustMenuWidth { get; set; }

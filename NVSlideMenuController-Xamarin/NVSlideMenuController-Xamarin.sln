@@ -18,7 +18,6 @@ Global
 		{CB2D73C0-31D6-49C5-9AFD-043AA0EFC31F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = NVSlideMenuController-Xamarin.csproj
-		version = 1.5.6
+		version = 1.5.6.1
 	EndGlobalSection
 EndGlobal
