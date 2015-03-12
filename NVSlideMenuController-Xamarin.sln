@@ -51,6 +51,6 @@ Global
 		{CB2D73C0-31D6-49C5-9AFD-043AA0EFC31F}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = NVSlideMenuControllerSample\NVSlideMenuControllerSample.csproj
+		version = 1.5.7
 	EndGlobalSection
 EndGlobal

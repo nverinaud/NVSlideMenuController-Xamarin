@@ -10,7 +10,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>NVSlideMenuControllerXamarin</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <ReleaseVersion>1.5.6.1</ReleaseVersion>
+    <ReleaseVersion>1.5.7</ReleaseVersion>
     <TargetFrameworkIdentifier>Xamarin.iOS</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v1.0</TargetFrameworkVersion>
   </PropertyGroup>

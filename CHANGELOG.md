@@ -1,5 +1,9 @@
 # Changelog
 
+## Release 1.5.7
+
+* UPDATE: wrapper around v1.5.7
+
 ## Release 1.5.6.1
 
 * NEW: *64-bit support* (Xamarin.iOS unified api)
